@@ -14,17 +14,42 @@ Applies font to all elements.
 Styles for element classes.
 */
 .top-div-dateselector{
-  width: 100px;
-  padding: 4px;
+  width: 166px;
   font-size: 17px;
-  text-align: center;
-  padding: 7px;
+  padding: 5px;
+  margin-bottom: 10px;
 }
 
 .content-div {
   border-left: 2px solid #ffffff;
   padding-left: 16px;
   text-align: left;
+}
+
+.time-select{
+  width: 100px;
+  font-size: 17px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+}
+
+.submit-button{
+  width: 180px;
+  font-size: 17px;
+  padding: 5px;
+}
+
+.select-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.select-row p {
+  margin: 0;
+  width: 70px;
 }
 
 /*
@@ -44,4 +69,11 @@ Styles for element ids.
 
 #bottom-div{
   margin-bottom: 65px;
+}
+
+#top-div{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start; /* or 'center' if you want them centered instead */
 }
