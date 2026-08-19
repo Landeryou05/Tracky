@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
   --text: #fafafa;
   --bg: #0d1117;
@@ -22,13 +20,15 @@
   }
 }
 
-* {
-  font-family: 'Montserrat', sans-serif;
-}
-
 #root {
   width: 1126px;
   max-width: 100%;
   margin: 0 auto;
-  text-align: center;
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;   /* aligns to the top instead of center */
+  align-items: center;
+  padding-top: 60px;             /* adjust this to control the gap from the top */
+  box-sizing: border-box;
 }

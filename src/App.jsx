@@ -17,7 +17,7 @@ function App() {
 
       <div className='top' id='top-div'>
         <h1>
-          Date Select
+          Select Date
         </h1>
         <DatePicker 
         selected={startDate}
@@ -29,13 +29,13 @@ function App() {
 
       <div className='middle' id='middle-div'>
         <h1>
-          Summary of Average Hours
+          Average Hours
         </h1>
       </div>
 
       <div className='bottom' id='bottom-div'>
         <h1>
-          Recent Changes
+          History
         </h1>
       </div>
     </div>
