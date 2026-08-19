@@ -22,7 +22,8 @@ function App() {
         selected={startDate}
         onChange={(date) => setStartDate(date)}
         dateFormat="dd/MM/yyyy"
-        calendarStartDay={1}/>
+        calendarStartDay={1}
+        className='top-div-dateselector'/>
       </div>
 
       <div className='middle' id='middle-div'>
