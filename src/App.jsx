@@ -8,6 +8,7 @@ function App() {
 
   return (
     <>
+    <div className='content-div'>
       <div className='title' id='title-div'>
         <h1>
           Tracky
@@ -37,6 +38,7 @@ function App() {
           Recent Changes
         </h1>
       </div>
+    </div>
     </>
   )
 }

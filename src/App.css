@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .top-div-dateselector{
   width: 100px;
   padding: 4px;
   font-size: 17px;
   text-align: center;
   padding: 7px;
+}
+
+.content-div {
+  border-left: 2px solid #ffffff;
+  padding-left: 16px;
+  text-align: left;
 }
