@@ -1,3 +1,4 @@
+/* Defining variables in root for reusability */
 :root {
   --text: #fafafa;
   --bg: #0d1117;
@@ -27,8 +28,8 @@
   min-height: 100svh;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;   /* aligns to the top instead of center */
+  justify-content: flex-start;
   align-items: center;
-  padding-top: 60px;             /* adjust this to control the gap from the top */
+  padding-top: 60px;
   box-sizing: border-box;
 }
