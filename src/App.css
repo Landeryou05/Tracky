@@ -18,6 +18,7 @@ Styles for element classes.
   font-size: 17px;
   padding: 5px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .content-div {
@@ -26,7 +27,7 @@ Styles for element classes.
   text-align: left;
 }
 
-.time-select{
+.data-select{
   width: 100px;
   font-size: 17px;
   padding-top: 5px;
@@ -37,19 +38,56 @@ Styles for element classes.
 .submit-button{
   width: 180px;
   font-size: 17px;
-  padding: 5px;
+  margin-top: 25px;
+  padding: 7px;
 }
 
-.select-row {
+.hours-row {
   display: flex;
   align-items: center;
   gap: 10px;
   margin-bottom: 10px;
 }
 
-.select-row p {
+.hours-row p {
   margin: 0;
   width: 70px;
+}
+
+.minutes-select-div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.minutes-select-div p {
+  margin: 0;
+  width: 70px;
+}
+
+.fields-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-top: 10px;
+}
+
+.field-block h3 {
+  margin: 0 0 10px 0;
+  font-size: 16px;
+}
+
+.time-select,
+.miles-input {
+  width: 100px;
+  height: 38px;
+  font-size: 17px;
+  padding: 5px;
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
 
 /*
